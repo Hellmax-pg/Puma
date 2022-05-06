@@ -41,6 +41,25 @@
 				<div class="swiper-button-next swiper__gallary-slider__next"></div>
 			</div>
 		</section>
+		<section class="testimonials" id="testimonials">
+			<h2 class="testimonials__title">
+				Testimonials
+			</h2>
+			<div class="testimonials__container flex --align-center --just-space">
+				<div class="testimonials__picture">
+					<img src="img/testimonial_picture.png" alt="walk-picture" class="testimonials__picture-img">
+				</div>
+				<div class="testimonials__comments">
+					<div class="swiper swiper__testimonials-slider">
+						<div class="swiper-wrapper">
+							@@loop('components/bem-blocks/testimonials-slider/_testimonials-slider.html', 'components/content/comments.json')
+						</div>
+						<div class="swiper-button-prev swiper__testimonials-slider__prev"></div>
+						<div class="swiper-button-next swiper__testimonials-slider__next"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/page-blocks/_scripts.html')

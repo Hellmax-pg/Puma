@@ -1,0 +1,21 @@
+.swiper__testimonials {
+    &-slide {
+        padding-right: 6rem;
+        height: 22rem;
+    }
+    &-picture {
+        width: 6rem;
+    }
+    &-title {
+        font-size: 1.5rem;
+    }
+    &-descr {
+        font-size: 0.8rem;
+    }
+    &-name {
+        font-size: 1.2rem;
+    }
+    &-profession {
+        font-size: 0.8rem;
+    }
+}
