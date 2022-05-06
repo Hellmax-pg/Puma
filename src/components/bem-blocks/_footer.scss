@@ -1,0 +1,47 @@
+.footer {
+    background-color: rgba(238, 85, 20, 0.04);
+    &__container {
+        width: 74rem;
+        margin: 0 auto;
+        padding-top: 8rem;
+    }
+    &__menu {
+        width: 100%;
+        padding-bottom: 2.5rem;
+        &-text {
+            line-height: 1.5rem;
+            font-size: 1rem;
+            margin: 0.6rem 0;
+        }
+        &-title {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        &-feedback {
+            margin-top: 2rem;
+        }
+        &-input {
+            width: 100%;
+            padding: 0.9rem 2rem;
+            border-color: rgba(203, 226, 255, 0.1);
+            background-color: rgba(238, 85, 20, 0.04);
+        }
+        &-btn {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+        &-icon {
+            margin: 0.5rem;
+            &:nth-child(1) {
+                margin-left: 0;
+            }
+        }
+    }
+    &__title {
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0;
+        border-top: solid 0.2px rgba(128, 128, 128, 0.2);
+    }
+
+}

@@ -10,6 +10,42 @@
     &__comments {
         margin-left: 3rem;
     }
+    &__sign {
+        margin-top: 8rem;
+        height: 21rem;
+        &-picture {
+            height: 100%;
+            border-radius: 0.5rem;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        &-feedback {
+            height: 100%;
+            background-color: rgba(129, 168, 218, 0.1);
+            padding: 4rem;
+        }
+        &-title {
+            font-size: 2rem;
+            width: 100%;
+        }
+        &-text {
+            line-height: 2rem;
+            font-size: 1.1rem;
+        }
+        &-area {
+            width: 100%;
+        }
+        &-input {
+            background-color: rgba(129, 168, 218, 0.1);
+            width: 100%;
+            padding: 0.9rem 2rem;
+            border-color: rgba(203, 226, 255, 0.1);
+        }
+        &-btn {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+    }
 }
 
 .swiper__testimonials-slider {
