@@ -1,1 +1,16 @@
-<header class="header"></header>
+<header class="header flex --align-center --just-">
+    <a href=""
+       class="header__logo">
+        @@include('../bem-blocks/logo/_logo.html')
+    </a>
+    <nav class="header__menu">
+        @@include('../bem-blocks/menu/_menu.html')
+    </nav>
+    @@include("../bem-blocks/button/_button.html", {
+    "class":{
+    "bem__elem":"header__btn"
+    },
+    "type":"button",
+    "text":"Buy now"
+    })
+</header>

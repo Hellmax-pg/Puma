@@ -1,0 +1,6 @@
+.logo {
+    width: 6rem;
+    height: 3rem;
+    outline: none;
+    @include btn_anim(1.05,0.95);
+}

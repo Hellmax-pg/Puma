@@ -1,0 +1,54 @@
+.about {
+    &__container {
+        margin-top: 10rem;
+    }
+    &__info {
+        width: 22rem;
+        &-subtitle {
+            color: var(--main__color);
+            font-size: 1.5rem;
+        }
+        &-title {
+            margin-top: 1rem;
+            font-size: 3rem;
+        }
+        &-text {
+            line-height: 2rem;
+            margin-top: 1rem;
+        }
+    }
+    &__video {
+        position: relative;
+        width: 37rem;
+        margin-right: 3rem;
+        &-background {
+            position: absolute;
+            left: 3rem;
+            top: -3rem;
+            z-index: -1;
+        }
+        &-main {
+            position: relative;
+            &__play {
+                position: absolute;
+                left: 15rem;
+                top: 7rem;
+                &:hover {
+                    @include btn_anim;
+                    cursor: pointer;
+                }
+            }
+        }
+        .youtube__container {
+            display: none;
+            position: absolute;
+            width: 35rem;
+            height: 20.5rem;
+            top: 0;
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

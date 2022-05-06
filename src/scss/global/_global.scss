@@ -46,10 +46,32 @@ html,
 body {
 	min-height: 100%;
 	position: relative;
+	font-family: 'Poppins', 'SourceSerifPro', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
 	font-size: 1rem;
+}
+
+.mainpage {
+	flex-direction: column;
+
+	.header,
+	.footer {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+}
+
+button:focus,
+input:focus {
+	outline: transparent;
+}
+
+.main {
+	margin: 0 auto;
+	flex: 1 0 auto;
+	max-width: 74rem;
 }
 
 ul,
@@ -63,4 +85,12 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'SourceSerifPro', Tahoma, Geneva, Verdana, sans-serif;
 }

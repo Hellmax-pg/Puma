@@ -1,0 +1,14 @@
+.header {
+    margin: 0 auto;
+    height: 9rem;
+    max-width: 74rem;
+    position: relative;
+    &__logo {
+        outline: transparent;
+    }
+    &__btn {
+        position: absolute;
+        right: 0;
+        margin-right: 2rem;
+    }
+}

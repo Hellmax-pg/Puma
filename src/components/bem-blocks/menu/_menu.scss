@@ -1,0 +1,37 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    &__item {
+        text-align: center;
+        &+&{
+            margin-left: 1.5rem;
+        }
+        &:first-child{
+            margin-left: 6rem;
+        }
+    }
+    &__link {
+        display: inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        color: var(--black__color);
+        font-size: 1rem;
+        line-height: 1.33;
+        transition: all 0.24s;
+        &:hover {
+            color: var(--main__color); 
+        }
+        &:focus {
+            outline: transparent;
+            transform: translateY(-10%);
+            color: var(--main__color); 
+        }
+        &:focus-visible{
+            outline: transparent;
+            text-decoration: underline;
+        }
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}

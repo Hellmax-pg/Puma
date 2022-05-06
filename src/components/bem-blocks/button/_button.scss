@@ -1,0 +1,11 @@
+button {
+    @include no-btn;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--main__color);
+    color: var(--white__color);
+    @include btn_anim(1.05,0.95);
+    text-align: center;
+}
