@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 5rem;
     background-color: rgba(238, 85, 20, 0.04);
     &__container {
         width: 74rem;
@@ -12,6 +13,10 @@
             line-height: 1.5rem;
             font-size: 1rem;
             margin: 0.6rem 0;
+            a {
+                text-decoration: none;
+                color: var(--black-color);
+            }
         }
         &-title {
             font-size: 1.5rem;
@@ -31,7 +36,7 @@
             border-top-left-radius: 0;
         }
         &-icon {
-            margin: 0.5rem;
+            margin: 0 1rem;
             &:nth-child(1) {
                 margin-left: 0;
             }
