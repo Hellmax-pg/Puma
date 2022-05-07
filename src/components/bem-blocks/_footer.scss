@@ -49,3 +49,39 @@
         border-top: solid 0.2px rgba(128, 128, 128, 0.2);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .footer {
+        &__container {
+            padding: 0 3rem;
+            width: 100%;
+        }
+        &__menu {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            &-area {
+                margin-top: 1rem;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .footer {
+        &__container {
+            padding: 0 3rem;
+            width: 100%;
+        }
+        &__menu {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            &-area {
+                margin-top: 1rem;
+                align-items: center;
+            }
+        }
+    }
+}

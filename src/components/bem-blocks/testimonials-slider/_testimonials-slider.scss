@@ -19,3 +19,12 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .swiper__testimonials {
+        &-slide {
+            padding: 1rem;
+            padding-right: 0;
+        }
+    }
+}

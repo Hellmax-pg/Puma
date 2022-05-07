@@ -31,8 +31,6 @@
 .swiper__gallary-slider {
     padding-top: 5rem;
     &__prev {
-        display: block;
-        text-align: center;
         border-radius: 50%;
         background-color: var(--background__color);
         width: 3rem;
@@ -46,8 +44,6 @@
         }
     }
     &__next {
-        display: block;
-        text-align: center;
         border-radius: 50%;
         background-color: var(--background__color);
         width: 3rem;
@@ -59,6 +55,81 @@
         &::after {
             font-size: 1.5rem;
             line-height: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .gallary {
+        &__subtitle {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__categories {
+            position: static;
+            text-align: center;
+            line-height: 2rem;
+            margin: 0 auto;
+            &-link {
+                margin: 0 1rem;
+            }
+        }
+    }
+    
+    .swiper__gallary-slider {
+        padding-right: 3rem;
+        padding-top: 0;
+        &__prev {
+            left: 0;
+            top: 50%;
+            margin-left: 0.7rem;
+        }
+        &__next {
+            left: auto;
+            top: 50%;
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .gallary {
+        &__subtitle {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        &__categories {
+            position: static;
+            text-align: center;
+            line-height: 2rem;
+            margin: 0 auto;
+            &-link {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+        }
+    }
+    
+    .swiper__gallary-slider {
+        padding-top: 0;
+        &__prev {
+            width: 2.5rem;
+            height: 2.5rem;
+            left: 0;
+            top: 50%;
+            margin-left: 0.7rem;
+        }
+        &__next {
+            width: 2.5rem;
+            height: 2.5rem;
+            left: auto;
+            top: 50%;
+            margin-right: 0;
         }
     }
 }

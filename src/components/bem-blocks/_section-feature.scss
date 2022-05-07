@@ -60,3 +60,30 @@
         color: var(--main__color);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .feature {
+        &__container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            margin: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .feature {
+        &__container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            margin: 1rem;
+        }
+        &__title {
+            text-align: center;
+        }
+    }
+}
