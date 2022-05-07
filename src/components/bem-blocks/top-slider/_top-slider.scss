@@ -146,17 +146,18 @@
         &__options {
             width: 20rem;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
             margin: 0 auto;
+            padding: 0.5rem;
             &-info {
-                padding: 0.5rem;
+                padding: 0.4rem;
                 &__title {
                     font-weight: 400;
-                    font-size: 0.9rem;
+                    font-size: 0.8rem;
                 }
                 &__descr {
                     margin-top: 0.5rem;
-                    font-size: 0.9rem;
+                    font-size: 0.8rem;
                 }
                 &::before {
                     content: url('../img/line.png');
@@ -170,11 +171,13 @@
                 }
             }
             &-btn {
-                font-size: 0.8rem;
                 width: 5rem;
-                height: 3rem;
+                height: 2rem;
+                padding: 0;
                 margin-right: 0;
                 margin: 0.5rem;
+                font-size: 0.8rem;
+                line-height: 2rem;
             }
         }
     }
