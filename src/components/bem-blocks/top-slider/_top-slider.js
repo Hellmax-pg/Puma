@@ -4,6 +4,7 @@ const topSwiper = new Swiper('.swiper.smenu__top-slider', {
   
   
     navigation: {
-      nextEl: '.swiper-button-next.smenu__top-slider__button',
+      nextEl: '.swiper-button-next.smenu__top-slider__next',
+      prevEl: '.swiper-button-prev.smenu__top-slider__prev',
     }
   });

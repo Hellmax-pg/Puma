@@ -82,11 +82,13 @@
         padding-right: 3rem;
         padding-top: 0;
         &__prev {
+            background-color: #fff;
             left: 0;
             top: 50%;
             margin-left: 0.7rem;
         }
         &__next {
+            background-color: #fff;
             left: auto;
             top: 50%;
             margin-right: 0;
@@ -118,6 +120,7 @@
     .swiper__gallary-slider {
         padding-top: 0;
         &__prev {
+            background-color: #fff;
             width: 2.5rem;
             height: 2.5rem;
             left: 0;
@@ -125,6 +128,7 @@
             margin-left: 0.7rem;
         }
         &__next {
+            background-color: #fff;
             width: 2.5rem;
             height: 2.5rem;
             left: auto;
