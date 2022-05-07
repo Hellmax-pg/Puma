@@ -1,5 +1,8 @@
 
 const topSwiper = new Swiper('.swiper.smenu__top-slider', {
+    autoplay: {
+      delay: 5000,
+    },
     loop: true,
   
   
