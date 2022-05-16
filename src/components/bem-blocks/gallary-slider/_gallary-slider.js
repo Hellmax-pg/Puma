@@ -1,6 +1,6 @@
 const mediaQueryMobile = window.matchMedia('(min-width:1px) and (max-width: 766px)');
 const mediaQueryTablet = window.matchMedia('(min-width:766px) and (max-width: 1280px)');
-const mediaQueryDesktop = window.matchMedia('(min-width:1280px) and (max-width: 2540px)');
+const mediaQueryDesktop = window.matchMedia('(min-width:1280px) and (max-width: 2560px)');
 
 function handleTabletChangeMobile(e) {
   if (e.matches) {
